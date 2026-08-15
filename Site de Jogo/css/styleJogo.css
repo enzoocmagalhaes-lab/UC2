@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Dancing Script";
+    font-size: 20px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+}
+
+#logotipo {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 6px solid red;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: x-large;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    &:hover{
+        background-color: #2b3a55;
+        color: #ffffff;
+    }
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto
+}
+
+section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 4px solid darkred;
+    padding-left: 10px;
+}
+
+article {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #a22;
+    color: #f4f4f4;
+    padding: 15px 20px;
+    text-align: center;
+}
