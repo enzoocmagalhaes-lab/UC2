@@ -78,3 +78,52 @@ footer {
     padding: 15px 20px;
     text-align: center;
 }
+
+
+.letra-laranja {
+    color: orange;
+    font-weight: bold;
+}
+
+.tabela-edições {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tabela-edições caption{
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tabela-edições th, .tabela-edições td {
+    border: 1px solid red;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.tabela-edições thead th{
+    background-color: black;
+    color: red;
+}
+
+.tabela-edicoes th[scope="row"] {
+    text-align: left;
+    background-color: #f0f0f0;
+}
+  
+.destaque {
+    background-color: #f7dede;
+    font-weight: bold;
+}
+  
+.disponivel {
+    color: green;
+}
+  
+.indisponivel {
+    color: red;
+}
+  
