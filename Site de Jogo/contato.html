@@ -23,7 +23,67 @@
 </nav>
 
 <main>
+    <section id="lista-de-espera">
+        <h2>Entre na lista de espera</h2>
+        <p>Seja avisado assim que Darkest Dungeon for lançado - sem spam, só o essencial</p>
 
+        <form action="#" method="post" class="form-lista-espera">
+
+            <div class="campo">
+                <label for="nome">Nome:</label>
+            
+                <input 
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Qual é o seu nome?"
+                required
+                >
+            </div>
+    
+            <div class="campo">
+                <label for="email">E-mail:</label>
+            
+                <input 
+                type="email"
+                id="email"
+                name="email"
+                placeholder="seuemail@exemplo.com"
+                required
+                >
+            </div>
+    
+            <div class="campo">
+                <label for="telefone">Telefone (opcional):</label>
+            
+                <input 
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="(21) 90000-0000"
+                pattern="\(?\d{2}\)?\s?\d{5,4}\-?\d{4}"
+                >
+            </div>
+    
+            <div class="campo">
+                <label for="Idade">Sua idade:</label>
+            
+                <input 
+                type="number"
+                id="idade"
+                name="idade"
+                min="16"
+                placeholder="Qual é o sua idade?"
+                required
+                >
+            </div>
+
+            <button type="submit">Entrar na lista de espera</button>
+
+            <button type="reset">Limpar Formulário</button>
+        </form>
+        
+    </section>
 </main>
 
 <footer>
